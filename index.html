@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>WELCOME!</h1>
+
+    <ul>
+        <li>Fishball - 30 PHP</li>
+        <li>Kikiam - 40 PHP</li>
+        <li>Corndog - 50 PHP</li>
+    </ul>
+
+    <form action="/folder2/part-2.php" method="post">
+        <label for="order">Choose your order:</label>
+        <select name="order_name" id="order_name">
+            <option value="Kikiam" name="Kikiam" id="Kikiam">Kikiam</option>
+            <option value="Fishball" name="Fishball" id="Fishball">Fishball</option>
+            <option value="Corndog" name="Corndog" id="Corndog">Corndog</option>
+        </select><br>
+
+        <label for="quantity" >Quantiy: </label>
+        <input type="number" name="number_order"><br>
+        <label for="cash">Cash: </label>
+        <input type="number" name="order_cash"><br  >
+        <input type="submit" name="submit">
+
+    </form>
+</body>
+</html>
